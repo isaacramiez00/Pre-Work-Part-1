@@ -40,3 +40,131 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.color-box {
+	margin-top: 200px;
+	margin-left: 400px;
+	width: 500px;
+	height: 20px;
+	border: 1px solid grey;
+	display: flex;
+}
+.orange-box {
+	background-color: orange;
+	width: 375px;
+	height: 20px;
+	border: 1px solid grey;
+}
+.white-box {
+	width: 125px;
+	height: 20px;
+	border: 1px solid grey;
+}
+
+.hidden-message {
+	visibility: hidden;
+	position: absolute;
+	top: 110px;
+	left: 400px;
+	text-align: center;
+	background-color: #383838;
+	border-radius: 5px;
+	width: 500px;
+	height: 75px;
+	/* margin: auto; */
+	color: white;
+	padding-top: 25px;
+	font-size: 1.2em;
+}
+.color-box:hover .hidden-message {
+	visibility: visible;
+}
+.orange-box:hover .hidden-message {
+	visibility: visible;
+}
+.white-box:hover .hidden-message {
+	visibility: visible;
+}
+
+.main-content-box {
+	margin-left: 400px;
+	padding-top: 10px;
+	border: 1px solid grey;
+	width: 500px;
+	height: 370px;
+}
+
+#qBox {
+	font-style: italic;
+	color: blue;
+	text-decoration: none;
+}
+
+.question-box {
+	margin-top: 20px;
+	margin-left:50px;
+}
+
+#saveB {
+	margin-left: 400px;
+	width: 200px;
+	height: 50px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 1.5em;
+	color: #777;
+}
+
+#shareB {
+	margin-left: 100px;
+	width: 200px;
+	height: 50px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 1.5em;
+	color: #777;
+}
+
+.first-line{
+	font-size: 1.5em;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.sec-line {
+	font-size: 1.5em;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+p1{
+	color: orange;
+}
+.buttons {
+	margin-top: 25px;
+	margin-left: 50px;
+	display: flex;
+}
+.out-box {
+	margin-top: 10px;
+	display: flex;
+}
+.gB {
+	margin-left: 25px;
+	height: 100px;
+	width: 185px;
+}
+#greenB {
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 2em;
+	background-color: green;
+	color: white;
+}
+.dB {
+	height: 100px;
+	width: 185px;
+	font-weight: bold;
+}
+#donation-txt {
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 2em;
+}
